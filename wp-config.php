@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'bupq81yodmbr5iefbbna' );
 
 /** Database username */
-define( 'DB_USER', 'wordpress' );
+define( 'DB_USER', 'u1ei98acuhihekev' );
 
 /** Database password */
-define( 'DB_PASSWORD', '!sdCON.AT23#_' );
+define( 'DB_PASSWORD', 't08vghRQuCqOrrbd4ML6' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'bupq81yodmbr5iefbbna-mysql.services.clever-cloud.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
