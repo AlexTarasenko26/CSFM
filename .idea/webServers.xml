@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1e850a6b-95bd-443b-905b-cfdaea5ff60f" name="CSFM" url="http://wordpress.dev.com/">
+        <fileTransfer rootFolder="/var/www/wordpress" accessType="SFTP" host="192.168.56.101" port="22" sshConfigId="e8bebacf-cec7-4909-9761-b924cc5dce13" sshConfig="alex@192.168.56.101:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
