@@ -1,6 +1,6 @@
 .effect-one #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:after {
@@ -40,7 +40,7 @@
 
 .effect-two #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:after {
@@ -72,7 +72,7 @@
 
 .effect-three #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:after {
@@ -106,7 +106,7 @@
 
 .effect-four #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:before,
@@ -147,7 +147,7 @@
 
 .effect-five #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:before,
@@ -194,7 +194,7 @@
 
 .effect-six #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:before,
@@ -237,7 +237,7 @@
 
 .effect-seven #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:after {
@@ -270,7 +270,7 @@
 
 .effect-eight #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 	    	padding: 0 8px;
 
@@ -329,7 +329,7 @@
 
 .effect-nine #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	position: relative;
 
 	    	&:before,
@@ -387,7 +387,7 @@
 
 .effect-ten #site-navigation-wrap .dropdown-menu > li {
 	> a.menu-link {
-	    > span {
+	    > span:first-child {
 	    	padding: 8px;
 	    	@include transition( box-shadow .25s ease-out );
 		}
