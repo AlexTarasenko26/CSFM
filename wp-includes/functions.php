@@ -8458,3 +8458,15 @@ function wp_recursive_ksort( &$array ) {
 	}
 	ksort( $array );
 }
+
+add_filter( 'get_custom_logo', 'wecodeart_com' );
+function wecodeart_com() {
+	$custom_logo_id = get_theme_mod( 'custom_logo' );
+	$html = sprintf( '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a>',
+		esc_url( 'ec2-3-8-18-51.eu-west-2.compute.amazonaws.com' ),
+		wp_get_attachment_image( $custom_logo_id, 'full', false, array(
+			'class'    => 'custom-logo',
+		) )
+	);
+	return $html;
+}
