@@ -5092,7 +5092,7 @@ if ( ! class_exists( 'OceanWP_Header_Customizer' ) ) :
 					align-items: center; padding: 0; max-width: 90%; }
 					#site-header.vertical-header #site-header-inner > *:not(.oceanwp-mobile-menu-icon) { display: none; }
 					#site-header.vertical-header #site-header-inner > * { padding: 0 !important; }
-					#site-header.vertical-header #site-header-inner #site-logo { display: block; margin: 0; width: 50%; text-align: left; }
+					#site-header.vertical-header #site-header-inner #site-logo { display: block; margin: 40px; margin-top: 10px!important; margin-bottom: 10px!important; width: 50%; text-align: left; }
 					body.rtl #site-header.vertical-header #site-header-inner #site-logo { text-align: right; }
 					#site-header.vertical-header #site-header-inner .oceanwp-mobile-menu-icon { width: 50%; text-align: right; }
 					body.rtl #site-header.vertical-header #site-header-inner .oceanwp-mobile-menu-icon { text-align: left; }

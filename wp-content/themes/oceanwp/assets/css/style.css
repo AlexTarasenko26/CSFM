@@ -9231,8 +9231,7 @@ body.default-breakpoint .after-header-content {
   }
   body.default-breakpoint #site-header.vertical-header #site-header-inner #site-logo {
     display: block;
-    margin: 0;
-    margin-left: 34px;
+    margin: 40px;
     width: 50%;
     text-align: left;
   }
