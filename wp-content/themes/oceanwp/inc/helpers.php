@@ -1465,7 +1465,6 @@ if ( ! function_exists( 'oceanwp_header_responsive_logo' ) ) {
 
 			// Logo url
 			$logo_data['url'] = $logo_url;
-
 			// Logo data
 			$logo_attachment_data = oceanwp_get_attachment_data_from_url( $logo_url );
 
@@ -1479,7 +1478,7 @@ if ( ! function_exists( 'oceanwp_header_responsive_logo' ) ) {
 			// Output image
 			$html = sprintf(
 				'<a href="%1$s" class="responsive-logo-link" rel="home"' . oceanwp_get_schema_markup( 'url' ) . '><img src="%2$s" class="responsive-logo" width="%3$s" height="%4$s" alt="%5$s" /></a>',
-				esc_url( home_url( '/' ) ),
+				esc_url( get_bloginfo( 'wpurl','raw' ) ),
 				esc_url( $logo_data['url'] ),
 				esc_attr( $logo_data['width'] ),
 				esc_attr( $logo_data['height'] ),
