@@ -60,7 +60,7 @@ class DropDownMobileMenu {
     );
 
     this.#elements.navWrapper
-      ?.querySelectorAll('li a[href*="#"]:not([href="#"])')
+      ?.querySelectorAll('li a[href*="#"]:not([href="#pll_switcher"])')
       .forEach((menuItemLink) => {
         menuItemLink.addEventListener("click", this.#onMenuCloseClick);
       });
