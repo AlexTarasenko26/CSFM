@@ -140,9 +140,9 @@ if ( ! function_exists( 'oceanwp_body_classes' ) ) {
 				$classes[] = $position;
 
 				// If default collapse.
-				$vh_collapse_width = get_theme_mod( 'ocean_vertical_header_collapse_width', '1280' );
+				$vh_collapse_width = get_theme_mod( 'ocean_vertical_header_collapse_width', '240' );
 				if ( empty( $vh_collapse_width )
-					|| '1280' == $vh_collapse_width ) {
+					|| '240' == $vh_collapse_width ) {
 					$classes[] = 'default-collapse';
 				}
 			}
