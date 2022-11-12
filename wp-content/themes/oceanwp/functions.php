@@ -412,11 +412,10 @@ final class OCEANWP_Theme_Class {
 	public static function meta_viewport() {
 
 		// Meta viewport.
-		$viewport = '<meta name="viewport" content="width=device-width, initial-scale=1">';
+//		$viewport = '<meta name="viewport" content="width=device-width, initial-scale=1">';
 
 		// Apply filters for child theme tweaking.
-		echo apply_filters( 'ocean_meta_viewport', $viewport ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-
+//		echo apply_filters( 'ocean_meta_viewport', $viewport ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 
 	/**
